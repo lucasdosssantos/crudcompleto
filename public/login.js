@@ -1,5 +1,5 @@
 // login.js
-const API = 'http://localhost:3000/users';
+const API = 'users';
 
 document.getElementById('btnLogin').addEventListener('click', async () => {
   const email = document.getElementById('email').value.trim();
@@ -25,3 +25,4 @@ document.getElementById('btnLogin').addEventListener('click', async () => {
     alert('Erro ao conectar com o servidor. Verifique o json-server.');
   }
 });
+
