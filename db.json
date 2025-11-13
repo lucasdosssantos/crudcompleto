@@ -1,22 +1,18 @@
 {
-  "pessoas": [
+  "users": [
     {
-      "id": 1,
-      "nome": "Maria",
-      "idade": 20,
-      "cpf": "123.456.789-00"
-    },
-    {
-      "nome": "Pedro",
-      "idade": "30",
-      "cpf": "111.222.333-44",
-      "id": 4
-    },
-    {
-      "nome": "Tiago",
-      "idade": "70",
-      "cpf": "999.888.777-66",
-      "id": 5
+      "id": "1",
+      "nome": "admin",
+      "sobrenome": "admin",
+      "cpf": "42638177880",
+      "email": "admin@gmail.com",
+      "senha": "admin",
+      "rua": "grdghdf",
+      "cep": "08840640",
+      "cidade": "Mogi das Cruzes",
+      "estado": "São Paulo",
+      "telefone": "11944714067",
+      "role": "admin"
     }
   ]
 }
