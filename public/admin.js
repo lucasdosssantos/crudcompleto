@@ -1,5 +1,5 @@
 // admin.js
-const API = "http://localhost:3000/users";
+const API = "users";
 
 function getSession() {
   const s = localStorage.getItem("sessionUser");
@@ -184,3 +184,4 @@ window.deleteUser = async function (id) {
 
 // carrega lista ao abrir (sem o DOMContentLoaded wrapper, para manter o estilo original)
 loadAllUsers();
+
