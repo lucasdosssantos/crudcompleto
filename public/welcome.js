@@ -1,5 +1,5 @@
 // welcome.js
-const API = 'http://localhost:3000/users';
+const API = 'users';
 
 function getSession(){
   const s = localStorage.getItem('sessionUser');
@@ -43,3 +43,4 @@ document.getElementById('btnAdmin').addEventListener('click', () => {
     alert('Acesso restrito a administradores.');
   }
 });
+
