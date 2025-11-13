@@ -1,5 +1,5 @@
 // register.js
-const API = 'http://localhost:3000/users';
+const API = 'users';
 
 document.getElementById('btnRegister').addEventListener('click', async () => {
   const fields = ['nome','sobrenome','cpf','email','senha','rua','cep','cidade','estado','telefone'];
@@ -39,3 +39,4 @@ document.getElementById('btnRegister').addEventListener('click', async () => {
     alert('Erro de conexão com servidor.');
   }
 });
+
